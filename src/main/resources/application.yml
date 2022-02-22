@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+
+systems:
+  username:admin
+  password:bfyusd$sdamlpg920!
+
+spring:
+  cloud:
+    vault:
+      host: localhost
+      port: 8200
+      scheme: http
+      authentication: token
+      token: 77437fDSFSDH18113unbjfsdftDt8QYBHNKMNBufsdiK
+
+spring:
+  datasource:
+    ds1:
+      url: jdbc:mysql://localhost:3306/springjdbc
+      username: sfiok213
+      password: i*Euj238fshdfkFUSDulm
+    ds2:
+      url: jdbc:mysql://localhost:3306/springjdbc;user=ProdDbUser;password=12u3ubIF*SDY71uj31PLA£(*&yhn
