@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
 public class VulncheckWeb {
+	private static final String PASSWORD = "8312789SFAJIOFd78123hjdhfusd7f871ubkas)IAS(Dy7834ghj";
 	private VulncheckDB db;
 	private static Logger LOG = LoggerFactory.getLogger(VulncheckWeb.class);
 
